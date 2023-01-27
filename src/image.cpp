@@ -1,5 +1,6 @@
 #include "image.h"
 #include <memory>
+#include <cstring>
 
 Image::Image(int w, int h)
     : width(w)

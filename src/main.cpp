@@ -18,8 +18,8 @@ static void mouseButtonEventCallback(AppWindow *window, MOUSE_BUTTON button, boo
 static void mouseScrollEventCallback(AppWindow *window, float offset);
 static void mouseDragEventCallback(AppWindow *window, float x, float y);
 
-int const scr_W = 375;
-int const scr_H = 750;
+int const scr_W = 512;
+int const scr_H = 824;
 int max_score = 0;
 
 static AppWindow *window;
